@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+    string name;
+    string zodiac;
+    string birth;
+    cout << "สวัสดี คุณชื่ออะไร\n";
+    getline(cin,name);
+    cout << "สวัสดีคุณ " <<  name  << " สู่การดูดวงออนไลน์\n" ;
+    cout << "เราขอทราบวัน เดือน ปีเกิดของคุณ\n";
+    getline(cin,birth);
+    cout << "ราศีของคุณคือ\n";
+    getline(cin,zodiac);
+    
+    if(zodiac == "เมษ"){
+        cout << "ความรัก\n";
+    }
+    return 0;
+}
